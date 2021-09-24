@@ -9,7 +9,7 @@ This program generated the cover artwork for my single "Polyphemitis". Listen to
 USER INSTRUCTIONS
 
 1. Run this code.
-2. Watch the generation process until the graphic seems fancy enough.
+2. Watch the generation process until the image seems fancy enough.
 3. Click left mouse-button to halt. The image then will be saved for further use.
 
 */
@@ -38,9 +38,9 @@ void draw() {
     // Placing the eyes
     
     scale(random(0.01, random(0.8, 1))); // Randomize their size...
-    rotate(random(-PI/4, PI/4)); // ...apply a random rotation...
+    rotate(random(-PI/4, PI/4)); // ...apply random rotation...
     
-    image(img, random(0, width), random(0, height)); // ...and give them a random position
+    image(img, random(0, width), random(0, height)); // ...set a random position
     image(img, random(width / 2, width), random(height / 2, height));
     image(img, random(width / 2, width), random(height / 2, height));
     
@@ -105,12 +105,12 @@ void draw() {
     updatePixels();
     
     save("MyPolyphemitisCover.tif"); // Save the final image
-    //save("MyPolyphemitisCover.png"); // (Choose your file type)
+    //save("MyPolyphemitisCover.png"); // (Choose your file type and name)
     
   }
 }
 
-//++// MESSY HELPER METHODS DOWN HERE TO KEEP THE MAIN LOOP CLEAN //++//
+//++// MESSY HELPER METHODS DOWN HERE TO KEEP THE REST CLEAN //++//
 
 void mousePressed() {
   game = false; 
