@@ -10,7 +10,7 @@ USER INSTRUCTIONS
 
 1. Run this code.
 2. Watch the generation process until the image seems fancy enough.
-3. Click left mouse-button to halt. The image then will be saved for further use.
+3. Click left mouse button to halt. The image then will be saved for further use.
 
 */
 
